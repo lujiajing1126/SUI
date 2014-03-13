@@ -1,0 +1,1 @@
+SUI.use("sui/core/common");

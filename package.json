@@ -1,0 +1,20 @@
+{
+  "name": "ui",
+  "version": "0.0.1",
+  "description": "A Front-End Javascript Toolkit with UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.3",
+    "grunt-contrib-jshint": "^0.8.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.5.3"
+  }
+}
