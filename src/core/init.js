@@ -5,7 +5,7 @@
         return SUI;
     };
     SUI.version = function() {
-        SUI.debug(SUI._VERSION);
+        SUI.debug(SUI._Version);
     };
     SUI.debug = function(msg) {
         console.log(msg);

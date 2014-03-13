@@ -3,7 +3,7 @@ seajs.config({
 
     // 别名配置
     alias: {
-        'jquery': 'jquery/1.10.1/jquery'
+        'jquery': 'sui/vendor/jquery'
     },
 
     // 路径配置
@@ -28,7 +28,7 @@ seajs.config({
     debug: true,
 
     // Sea.js 的基础路径
-    base: '',
+    base: '/scripts/',
 
     // 文件编码
     charset: 'utf-8'

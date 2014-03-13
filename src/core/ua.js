@@ -1,14 +1,14 @@
-leOverview UA,jQuery的 $.browser 对象非常难使用
- * @ignore
- * @author dxq613@gmail.com
- */
-define('bui/ua', function () {
+leOverview UA, jQuery的 $.browser对象非常难使用 * @ignore * @author dxq613@ gmail.com * /
+define('sui/core / ua ', function () {
 
     function numberify(s) {
         var c = 0;
-        // convert '1.2.3.4' to 1.234
+        //convert '
+1.2.3.4 ' to 1.234
         return parseFloat(s.replace(/\./g, function () {
-            return (c++ === 0) ? '.' : '';
+            return (c++ === 0) ? '.
+' : '
+';
         }));
     };
 
