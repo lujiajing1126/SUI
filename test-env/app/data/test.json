@@ -1,0 +1,11 @@
+{
+    "id": "A bulb",
+    "Power": "500W",
+    "CT": "2500K",
+    "LifeTime": "86400hrs",
+    "Brightness": "900lumins",
+    "Dimmable": "2",
+    "Size": "2",
+    "Ra": "Yellow",
+    "Special": "none"
+}

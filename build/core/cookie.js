@@ -1,0 +1,1 @@
+define("sui/core/cookie",function(a,b){var c=document.cookie,d=[],e={},f=function(a){d=c.split("; ");for(var b=0;b<d.length;b++)if(e[d[b].split("=")[0]]=d[b].split("=")[1],d[b].split("=")[0]==a)return d[b].split("=")[1];return!1};f(),b.getCookie=function(a){return e.hasOwnProperty(a)?e[a]:!1},b.setCookie=function(){}});

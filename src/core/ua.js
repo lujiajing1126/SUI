@@ -1,14 +1,12 @@
-leOverview UA, jQuery的 $.browser对象非常难使用 * @ignore * @author dxq613@ gmail.com * /
-define('sui/core / ua ', function () {
+/* Overview UA, jQuery的 $.browser对象非常难使用 * @ignore * @author dxq613@ gmail.com */
+
+define('sui/core/ua', function() {
 
     function numberify(s) {
         var c = 0;
-        //convert '
-1.2.3.4 ' to 1.234
-        return parseFloat(s.replace(/\./g, function () {
-            return (c++ === 0) ? '.
-' : '
-';
+        //convert '1.2.3.4 ' to 1.234
+        return parseFloat(s.replace(/\./g, function() {
+            return (c++ === 0) ? '.' : '';
         }));
     };
 
@@ -21,11 +19,11 @@ define('sui/core / ua ', function () {
             },
             b = {};
         a.browser && (b[a.browser] = !0, b.version = a.version),
-            b.chrome ? b.webkit = !0 : b.webkit && (b.safari = !0);
+        b.chrome ? b.webkit = !0 : b.webkit && (b.safari = !0);
         return b;
     }
 
-    var UA = $.UA || (function () {
+    var UA = $.UA || (function() {
         var browser = $.browser || uaMatch(navigator.userAgent),
             versionNumber = numberify(browser.version),
             /**
@@ -33,8 +31,7 @@ define('sui/core / ua ', function () {
              * @class BUI.UA
              * @singleton
              */
-                ua =
-            {
+            ua = {
                 /**
                  * ie 版本
                  * @type {Number}

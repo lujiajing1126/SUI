@@ -1,0 +1,1 @@
+!function(){var a=["jquery"];define("sui/core/common",a,function(a){SUI.$=a("jquery")})}();
