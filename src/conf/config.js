@@ -8,7 +8,8 @@ seajs.config({
 
     // 路径配置
     paths: {
-        'gallery': 'https://a.alipayobjects.com/gallery'
+        'gallery': 'https://a.alipayobjects.com/gallery',
+        'scripts': '/scripts/'
     },
 
     // 变量配置
@@ -28,7 +29,7 @@ seajs.config({
     debug: true,
 
     // Sea.js 的基础路径
-    base: '/public/',
+    base: '/',
 
     // 文件编码
     charset: 'utf-8'
