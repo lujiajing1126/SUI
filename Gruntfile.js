@@ -102,7 +102,6 @@ module.exports = function(grunt) {
             tmpl: {
                 files: {
                     'build/tmpl/artTemplate.js': 'src/tmpl/artTemplate.js',
-                    'build/tmpl/template-simple.js': 'src/tmpl/template-simple.js'
                 }
             },
             vendor: {
