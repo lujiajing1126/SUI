@@ -1,6 +1,6 @@
 ;
 (function() {
-    var SUI = window.SUI = window.SUI || {}, older_SUI, _VERSION = SUI._Version = "0.0.1";
+    var SUI = window.SUI = window.SUI || {}, older_SUI, _VERSION = SUI._Version = "0.1.1";
     SUI.noConflict = function() {
         return SUI;
     };

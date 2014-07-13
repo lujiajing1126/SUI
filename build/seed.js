@@ -12,7 +12,7 @@ seajs.config({
     // 路径配置
     paths: {
         'gallery': 'https://a.alipayobjects.com/gallery',
-        'scripts': '/scripts/'
+        'scripts': '/scripts'
     },
 
     // 变量配置
@@ -37,9 +37,10 @@ seajs.config({
     // 文件编码
     charset: 'utf-8'
 });
+
 ;
 (function() {
-    var SUI = window.SUI = window.SUI || {}, older_SUI, _VERSION = SUI._Version = "0.0.1";
+    var SUI = window.SUI = window.SUI || {}, older_SUI, _VERSION = SUI._Version = "0.1.1";
     SUI.noConflict = function() {
         return SUI;
     };
@@ -52,5 +53,6 @@ seajs.config({
     // 封装seajs模块
     SUI.use = seajs.use;
 })();
+
 SUI.use("sui/core/common");
 SUI.use("sui/bootstrap/bootstrap");
