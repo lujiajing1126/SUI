@@ -9,7 +9,7 @@ seajs.config({
     // 路径配置
     paths: {
         'gallery': 'https://a.alipayobjects.com/gallery',
-        'scripts': '/scripts/'
+        'scripts': '/scripts'
     },
 
     // 变量配置
